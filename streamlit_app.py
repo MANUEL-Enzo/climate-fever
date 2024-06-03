@@ -63,7 +63,7 @@ with st.sidebar:
     sleep_time = st.slider('Sleep time', 0, 3, 0)
 
 # Initiate the model building process
-if uploaded_file or example_data: 
+if uploaded_file: 
     with st.status("Running ...", expanded=True) as status:
     
         st.write("Loading data ...")
