@@ -9,7 +9,7 @@ import time
 import zipfile
 
 # Page title
-st.set_page_config(page_title='ML Model Building', page_icon='🤖')
+st.set_page_config(page_title='Climate Fever', page_icon='🤖')
 st.title('🤖 ML Model Building')
 
 with st.expander('About this app'):
@@ -18,11 +18,6 @@ with st.expander('About this app'):
 
   st.markdown('**How to use the app?**')
   st.warning('To engage with the app, go to the sidebar and 1. Select a data set and 2. Adjust the model parameters by adjusting the various slider widgets. As a result, this would initiate the ML model building process, display the model results as well as allowing users to download the generated models and accompanying data.')
-
-  st.markdown('**Under the hood**')
-  st.markdown('Data sets:')
-  st.code('''- Drug solubility data set
-  ''', language='markdown')
   
   st.markdown('Libraries used:')
   st.code('''- Pandas for data wrangling
